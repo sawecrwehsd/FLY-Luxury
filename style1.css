@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+    height: 95vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../image/aircraft\ take\ off\ photo.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.navbar{
+    padding: 8px 200px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.logo{
+    float: left;
+    display: inline;
+    color: white;
+
+}
+.logo img{
+    width: 200px;
+    height: 50px;
+}
+.nav-items{
+    float: right;
+    list-style: none;
+    padding-top: 15px;
+}
+.nav-item{
+    display: inline;
+    padding-left: 20px;
+}
+.nav-items .nav-item a{
+    text-decoration: none;
+    color: white;
+    
+}
+.navbar::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.navbar a:hover{
+    border-bottom: 2px solid white;
+}
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.header-content h1{
+    color: white;
+}
+.header-content p{
+    color: white;
+    margin-top: 10px;
+}
+
+.header-content a{
+    color:plum;
+    text-decoration: none;
+}
+.btn{
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: none;
+    outline: 2px solid white;
+}
+.beautiful_place{
+    background-color: aliceblue;
+}
+.container{
+    padding: 8px 200px;
+    
+}
+.heading{
+    padding: 20px 0px;
+    font-size: 25px;
+}
+.row{
+    height: 300px;
+    background-color: white;
+    box-shadow: 10px 10px 8px #888888;
+}
+.row1{
+    margin-bottom: 100px;
+}
+.row2 {
+    margin-bottom: 100px;
+}
+.row1 .img-box{
+    float: left;
+    width: 50%;
+}
+.row1 .text-box{
+    float: right;
+    width: 50%;
+}
+.row2 .text-box{
+    float: left;
+    width: 50%;
+}
+.row2 .img-box{
+    float: right;
+    width: 50%;
+}
+.img-box{
+    height: 100%;
+}
+.row .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text-box{
+    padding: 30px 15px;
+}
+
+.text-box h2{
+    padding: 10px 0px;
+}
+
+.text-box .subheading{
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.text-box p{
+    font-size: 14px;
+}
+.text-box a{
+    color: red;
+    text-decoration: none;
+}
+.btn-more{
+border: 2px solid red;
+display: inline-block;
+margin-top: 20px;
+padding: 10px 30px;
+border-radius: 100px;
+cursor: pointer;
+}
+/* ################# feature ######################## */
+.features{
+    margin: 50px 0px;
+    color: white;
+}
+.box{
+    width: 33.333%;
+    text-align: center;
+    float: left;
+    padding: 2rem;
+    box-shadow: 5px 5px 30px #000;
+    
+}
+.box p{
+    line-height: 25px;
+}
+.box h2{
+    padding: 10px 0px;
+}
+.box-1{
+    background-color: #263226;;
+}
+.box-2{
+    background: linear-gradient(90deg, rgba(169,6,23,1) 0%, rgba(209,74,16,1) 35%, rgba(255,46,0,1) 100%);
+}
+.box-3{
+    background-color: #263226;
+} 
+.feature-box::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/* ################### about ################## */
+.about-us{
+    background-color: aliceblue;
+    padding: 30px 0px;
+}
+.about-box{
+    width: 50%;
+    float: left;
+
+    
+}
+.about-pic img{
+    width: 450px;
+    
+}
+.about-us .about-heading{
+    padding: 20px 0px;
+    font-size: 35px;
+    text-align: center;
+}
+.content p{
+    text-align: center;
+}
+.content{
+    max-width: 80%;
+    margin: auto;
+    padding-bottom: 40px;
+    
+}
+.main-about h2{
+    font-size: 25px;
+    padding-top: 18px;
+    
+}
+.main-about p{
+    padding: 24px 0px;
+}
+.container ::after{
+    content: '';
+    display: block;
+    clear:both;
+
+}
+.main-about-2{
+    margin-top: 80px;
+}
+.about-txt{
+    text-align: left;
+}
+.main-about-1 .about-pic{
+    text-align: left;
+}
+.main-about-2 .about-txt{
+    text-align: left;
+}
+.main-about-2 .about-pic{
+    text-align: right;
+}
+.about-heading span{
+    color: palevioletred;
+}
+.about-span span{
+    color: palevioletred;
+}
+.about-box h2 span{
+    color: palevioletred;
+}
+/* ########################## contact ##############################  */
+.contact-us{
+    padding: 50px 0px;
+}
+.main-contact {
+    border: 2px solid #241E3D;
+    border-radius: 20px;
+    padding: 30px 50px;
+    text-align: center; /* Center the form elements */
+}
+.main-contact h2{
+    font-size: 37px;
+    padding: 10px 0px;
+}
+label {
+    display: block;
+    text-align: left;
+    padding: 10px 0px;
+    font-weight: bolder;
+}
+
+.form-contact {
+    max-width: 600px; /* Set a fixed width for the form container */
+    margin: auto; /* Center the form horizontally */
+    padding: 30px 40px;
+}
+
+input{
+    border: none;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 100px;
+    display: block; /* Display inputs as block elements to stack them vertically */
+    margin-bottom: 15px; /* Add some spacing between input fields */
+width: 100%;
+}
+textarea{
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 20px;
+    display: block; /* Display inputs as block elements to stack them vertically */
+    margin-bottom: 15px; /* Add some spacing between input fields */
+width: 100%;
+}
+.text-pink{
+    color: red;
+}
+input[type=checkbox] {
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: inline;
+    width: 10%;
+  }
+.cleckbox{
+    display: inline;
+    display: block;
+    text-align: left;
+    padding: 10px 0px;
+    font-weight: 300;
+}
+.button{
+   margin: auto;
+    background-color: red;
+    padding: 10px 30px;
+display: inline-block;
+border-radius: 80px;
+}
+.button a{
+    color: white;
+    text-decoration: none;
+}
+.hooter {
+    background: linear-gradient(45deg,#160d5a,#240324ab);
+}
+
+.one {
+    color: white;
+    width: 55%;
+    height: 320px;
+    float: left;
+}
+.one p{
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.two {
+    color: white;
+    width: 15%;
+    height: 250px;
+    float: left;
+    padding-top: 30px;
+}
+
+.three {
+    color: white;
+    width: 30%;
+    height: 290px;
+    float: left;
+    padding-top: 30px;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.one-icons img{
+    width: 30px;
+    padding-top: 13px;
+    margin-left: 9px;
+}
+.two h3{
+    color: rgb(179, 56, 190);
+    padding-left: 40px;
+}
+.two a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.three h3{
+    color: rgb(179, 56, 190);
+    padding-left: 40px;
+}
+.three a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.intelli-logo{
+    width: 150px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.Features{
+    background: linear-gradient(45deg,#160d5a,#240324ab);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-height: 600px;
+    max-height: 600px;
+}
+.Features span{
+    color: palevioletred;
+}
+.Features h1{
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+}
+.main-p{
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    font-size: 15px;
+}
+.first-box{
+    
+    width: 22%;
+    height: 300px;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-top: 30px;
+    float: left;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: linear-gradient(45deg,#630963,#061670ab);
+    color: #fff;
+}
+.first-box h2,p{
+    text-align: center;
+}
+.first-box p{
+    padding-top: 8px;
+}
+.second-box{
+    width: 22%;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    float: left;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: linear-gradient(45deg,#630963,#061670ab);
+    color: #fff;
+}
+.second-box h2,p{
+    text-align: center;
+}
+.second-box p{
+    padding-top: 8px;
+}
+.third-box{
+    width: 22%;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    float: left;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: linear-gradient(45deg,#630963,#061670ab);
+    color: #fff;
+}
+.third-box h2,p{
+    text-align: center;
+}
+.third-box p{
+    padding-top: 8px;
+}
+.forth-box{
+    width: 22%;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-top: 30px;
+    float: left;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: linear-gradient(45deg,#630963,#061670ab);
+    color: #fff;
+}
+.forth-box h2,p{
+    text-align: center;
+}
+.forth-box p{
+    padding-top: 8px;
+}
+.first-box img,
+.second-box img,
+.third-box img,
+.forth-box img {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
