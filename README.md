@@ -69,3 +69,16 @@ Cleaner and more maintainable code
 An early web development project created as part of my journey into programming, AI, and technology.
 
 ⭐ This project represents one of my earlier experiments in web development and shows how my skills have evolved over time.
+
+
+
+
+
+
+
+
+
+
+
+<img width="452" height="678" alt="image" src="https://github.com/user-attachments/assets/05d7097d-0808-43a1-b892-af41c2631432" />
+
