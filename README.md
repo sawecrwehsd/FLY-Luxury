@@ -66,13 +66,6 @@ Optimized images and performance
 Cleaner and more maintainable code
 📸 Project Preview
 
-Add screenshots of the original website here.
-
-![Fly Luxury Preview](images/preview.png)
-👨‍💻 Author
-
-Firas
-
 An early web development project created as part of my journey into programming, AI, and technology.
 
 ⭐ This project represents one of my earlier experiments in web development and shows how my skills have evolved over time.
